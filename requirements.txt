@@ -1,0 +1,7 @@
+--upgrade pip
+opencv-python
+wheel
+zbar-py
+pyzbar
+PyYAML
+imutils
