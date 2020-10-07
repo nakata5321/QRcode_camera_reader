@@ -1,5 +1,1 @@
-general:
-  output_dir: "" #ends with a "/"
-  num_cams: 3 #must mathc with camerai number
-transaction:
-  path_to_robonomics_file: "" #where lies the binaty file
+#there shoud be something?
