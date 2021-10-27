@@ -1,7 +1,3 @@
---upgrade pip
-opencv-python
-wheel
-zbar-py
-pyzbar
-PyYAML
-imutils
+pyzbar==0.1.8
+opencv_python==4.5.3.56
+PyYAML==6.0

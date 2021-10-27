@@ -1,9 +1,8 @@
+from src.QRcode_scanner import qr_scanner
 import logging
-import os
-import time
 import yaml
-from src.QRcode_scanner import QR_scanner
-from threading import Thread
+import os
+
 
 def read_configuration() -> dict:
 
@@ -25,4 +24,4 @@ def read_configuration() -> dict:
 
 if __name__ == '__main__':
     dirname = os.path.dirname(os.path.abspath(__file__))
-    QR_scanner()
+    qr_scanner()
