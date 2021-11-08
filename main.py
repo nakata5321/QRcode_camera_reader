@@ -1,12 +1,11 @@
-from src.QRcode_scanner import qr_scanner
+from scripts.QRcode_scanner import qr_scanner
 import logging
 import yaml
-import os
 
 
 def read_configuration() -> dict:
 
-    config_path = dirname + '/config/config.yaml'
+    config_path = '/config/config.yaml'
     logging.debug(config_path)
 
     try:
@@ -22,6 +21,9 @@ def read_configuration() -> dict:
             exit()
 
 
-if __name__ == '__main__':
-    dirname = os.path.dirname(os.path.abspath(__file__))
+def main():
     qr_scanner()
+
+
+if __name__ == '__main__':
+    main()
